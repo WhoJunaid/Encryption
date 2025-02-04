@@ -3,6 +3,7 @@ let button1= document.querySelector("#button1");
 let button2 = document.querySelector("#button2");
 let output = document.getElementById("outputarea");
 let copyButton = document.getElementById("copy");
+let clearText = document.getElementById("button3");
 // let input = textArea.
 function getInput() {
   var input = textArea.value;
@@ -157,3 +158,14 @@ function decryption() {
   
   
 };
+
+clearText.onclick = function clearTextClicked() {
+  // console.log("clear text");
+  textArea.value = [];
+  output.value = [];
+  
+} 
+
+  
+  
+  
