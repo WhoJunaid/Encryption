@@ -4,10 +4,13 @@ let button2 = document.querySelector("#button2");
 let output = document.getElementById("outputarea");
 let copyButton = document.getElementById("copy");
 let clearText = document.getElementById("button3");
-// let input = textArea.
+let inputPassword = document.getElementById("inputPassword6");
+let submitButton = document.getElementById("submitbutton");
+let message = document.getElementById("message");
+
 function getInput() {
   var input = textArea.value;
-  // console.log(input);
+  
   
 };
 
@@ -111,7 +114,7 @@ copyButton.onclick = function copy() {
   
   
 }
-
+let encryptMore = "Ayesha"
 function decryption() {
   var input = textArea.value;
   // console.log(input);
@@ -165,6 +168,31 @@ clearText.onclick = function clearTextClicked() {
   output.value = [];
   
 } 
+
+
+// function checkPassword() {
+  
+//  }
+// submitButton.onclick = function submitClicked() {
+
+//  if (inputPassword.value === encryptMore ) {
+   
+//     message.innerText = 
+
+// "I really loved her, more than words could ever express. I might tell people that I’m okay, that I’ve moved on, but deep down, I know that’s not entirely true. Some days are easier than others, but there are moments when the memories come rushing back, and I feel the weight of everything we shared. Life has a way of moving forward, whether we’re ready or not, so I try to smile, to find happiness in the little things.So, be happy with what u have. 💕❤️"
+
+
+    
+//   }else{
+   
+//     message.innerText = "umm....its not right but life is good bro..Be happy"
+//   }
+  
+ 
+ 
+  
+// } 
+
 
   
   
